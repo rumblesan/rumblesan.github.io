@@ -1,0 +1,80 @@
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #ffffff;
+    background-image: url(./images/cloud.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px;
+}
+
+#navbar {
+    width: 100%;
+    background-color: #1d1d2d;
+    opacity: 0.85;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.title {
+    font-family: monospace; line-height: 1.4em;
+    font-size: 1.7em;
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 5px 10px;
+}
+
+ul
+{
+    text-align: left;
+    display: inline;
+    margin: 0;
+    list-style: none;
+}
+
+ul li
+{
+    display: inline-block;
+    position: relative;
+    padding: 5px 10px;
+}
+ul li:hover {
+    background: #000000;
+}
+
+ul li a {
+    font-family: monospace; line-height: 1.4em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 37px;
+  left: 0;
+  width: 180px;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+ul li ul li { 
+  background: #000000; 
+  display: block; 
+  color: #f0f0f0;
+}
+ul li ul li:hover { background: #1d1d2d; }
+
