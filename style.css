@@ -71,9 +71,9 @@ ul li:hover ul {
   visibility: visible;
 }
 
-ul li ul li { 
-  background: #000000; 
-  display: block; 
+ul li ul li {
+  background: #000000;
+  display: block;
   color: #f0f0f0;
 }
 ul li ul li:hover { background: #1d1d2d; }
